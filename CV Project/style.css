@@ -1,22 +1,31 @@
 * {
 	margin: 0;
-	padding: 0
+	padding: 0;
+}
+
+.content {
+    padding: 10px;
+    margin: 20px;
 }
 body {
+	margin: 10px;
+	
 	background-color: #EEE;
 	font-family: 'Roboto',sans-serif;
 }
 .container {
 	max-width: 1000px;
-	background-color: #E4F9F9F5;
+	background-color: #46c0c0f5;
 	margin: 0 auto
 }
 .profile-image {
 	width: 100px;
 	height: 120px;
-	border :3px solid white;
+	border :2px solid rgb(182, 241, 240);
 	border-radius: 50%; 
 	float: left;
+	padding: 5px;
+	margin: 10px;
 }
 .profile-bio {
 	float: left;
@@ -44,7 +53,11 @@ h1,h2,h3,h4 {
 }
 hr {
 	border :solid black 3px;
-	width: 100%;
+	width: 99%;
 	margin: 20px auto;
 	border-bottom: none;
+}
+
+hr {
+    max-width: 995px;
 }
