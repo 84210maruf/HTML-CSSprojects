@@ -33,7 +33,7 @@ body {
 }
 .active,.menu-bar ul li:hover{
 	background-color:#4ea03c;
-	border-radius: 3px 3px 0 0;
+	border-radius: 3px;
 }
 .sub-menu-1{
 	display: none;
